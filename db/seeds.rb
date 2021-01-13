@@ -27,3 +27,9 @@ artwork_shares = ArtworkShare.create([
     {artwork_id: 2, viewer_id: 4},
     {artwork_id: 4, viewer_id: 3}
 ])
+
+comments = Comment.create([
+    {user_id: 1, artwork_id: 2, body: 'Nice work!'},
+    {user_id: 3, artwork_id: 1, body: 'Great job!'},
+    {user_id: 2, artwork_id: 4, body: 'Wow!'}
+])

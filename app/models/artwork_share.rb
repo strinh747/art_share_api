@@ -6,4 +6,5 @@ class ArtworkShare < ApplicationRecord
 
     belongs_to :artwork
 
+
 end

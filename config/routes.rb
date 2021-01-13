@@ -22,4 +22,6 @@ Rails.application.routes.draw do
       post :unfavorite, to: 'artwork_shares#unfavorite', as: 'unfavorite'
     end
   end
+
+  resources :comments, only: [:create,:destroy,:index]
 end
